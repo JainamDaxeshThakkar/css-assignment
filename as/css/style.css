@@ -1,0 +1,109 @@
+body {
+    /* Base styling for the body */
+    font-family: 'Roboto', sans-serif;
+    background-color: #abab9c;
+    color: #333;
+    padding: 20px;
+    margin: 0;
+font-family: 'Cinzel', serif;
+font-family: 'Creepster', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-weight: bolder;
+}
+
+header {
+     /* Styling for the header section */
+    background-color: black;
+    color: gold;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    /* Styling for main title in header */
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
+    margin: 10px 0;
+}
+
+header h2 {
+    /* Styling for subtitle in header */
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+main {
+    /* Centered content within max-width */
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+/* Line spacing for paragraphs */
+    line-height: 1.6;
+}
+
+.verse {
+    /* Style for verse text */
+    font-size: 1.1em;
+    float: left;
+    width: 50%;
+    font-family: 'Cinzel', serif;
+    font-size: 1.1em;
+    font-weight:700 ;
+}
+
+.chorus {
+     /* Style for chorus text */
+    font-size: 1.3em;
+    color: #d32f2f;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    float: right;
+    width: 50%;
+}
+
+.clearfix::after {
+    /* Clearing floats */
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Individual text color classes */
+.highlight {
+
+    color: pink;
+}
+.blue-text {
+    color:blue;
+}
+.yellow-text {
+    color: #ffb302;
+}
+.gold-text {
+    color: gold;
+}
+.caution{
+    /* Style for caution text: yellow bg, creepy font */
+    background-color: yellow;
+    color: black;
+    font-family: 'Creepster', cursive;
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.kid{
+    /* Style for kid text: large, white on black */
+   background-color:black;
+   color: #f8f8f8; 
+   font-family: 'Roboto', sans-serif;
+   font-size: 50px;
+}
+.advice{
+    /* Style for advice text: red */
+    color: red;
+}
